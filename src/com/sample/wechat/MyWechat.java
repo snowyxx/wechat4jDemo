@@ -36,11 +36,11 @@ public class MyWechat extends WechatSupport {
 		logger.info(content);
 		//文本测试
 		if(content.equals("1")){
-			responseText("你好，hello world!<a href=\"http://www.baidu.com\">这是链接</a>");
+			responseText("你好，hello world!<a href=\"http://www.zohocorp.com.cn\">From ZOHO</a>");
 		}
 		else if(content.equals("2")){
-			responseNew("图文消息", "测试图文消息", "http://upload.qqfuzhi.com/portal/showimg.php?img=e2dnYyk8PHEhIys9Y3t8Z3w9YGd8YXY9YmI9cHx%2BPHtnZ2NMen50f3xydz1wdHosPGFmYX8nTHEuJ3Z2IXFyJnUiICAqcnAnInYhcHJ2InAnKndycidwKyAgdnIqdiN1KitxdyojIysjcSAiJipyK3YqIXd1JCt1JyBxKnIkcCt1JyYkKysicCAjIiokKyogcHd1ICAhcXArciUjI3EhdyYjKiIncSclIiUqJyAkInEgKiV2IiEiJnEgKyp2cXV3cCEmJ3EjcHYqJHIrdytwIyYgIHIicHAgcXFwIiIldyIhNXIuISMrNXEuISMr", 
-					"http://www.chengn.com");
+			responseNew("图文消息", "测试图文消息", "http://www.zohocorp.com.cn/index_files/logo.gif", 
+					"http://www.zohocorp.com.cn");
 			
 //			responseNew(title, description, picUrl, url);
 //			

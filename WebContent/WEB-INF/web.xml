@@ -29,10 +29,14 @@
     <servlet-name>Hello</servlet-name>
     <url-pattern>/index.htm</url-pattern>
   </servlet-mapping>
-
-<!--
-  	<listener>
-		<listener-class>org.sword.wechat4j.token.AccessTokenListener</listener-class>
-	</listener>
--->
+  <servlet>
+    <description></description>
+    <display-name>PassMesg</display-name>
+    <servlet-name>PassMesg</servlet-name>
+    <servlet-class>com.sample.wechat.PassMesg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PassMesg</servlet-name>
+    <url-pattern>/pass</url-pattern>
+  </servlet-mapping>
 </web-app>
