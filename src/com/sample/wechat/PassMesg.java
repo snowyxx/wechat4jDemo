@@ -30,8 +30,7 @@ public class PassMesg extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		String product = request.getParameter("product");
 		String message = request.getParameter("message");
-		System.out.println("中文测试。 消息内容为：");
-		System.out.println(message);
+//		System.out.println(message);
 		UserManager userManager = new UserManager();
 		List<Object> userList = userManager.subscriberList();
 		if(userList.size() > 0){
